@@ -12,4 +12,10 @@ export class HomePage {
   clique(){
     alert("Hello World");
   }
+  public inputValue:string;
+
+  newWord(){
+    
+    alert(this.inputValue)
+  }
 }

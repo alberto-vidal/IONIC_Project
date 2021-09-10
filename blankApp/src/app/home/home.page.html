@@ -20,6 +20,11 @@
   <div id="container">
     <strong>App esta pronto</strong>
     <p></p>
-    <ion-button (click)="clique()">Clique aqui</ion-button>
-  </div>
+    <ion-button (click)="clique()">Botão Hello</ion-button>
+    <div class="dialogo">
+      <ion-input placeholder="Enter Input" [(ngModel)]="inputValue"></ion-input>
+      <ion-button (click)="newWord()">Nova Palavra</ion-button>
+    </div>
+      
+    </div>
 </ion-content>
