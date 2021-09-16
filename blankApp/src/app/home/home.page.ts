@@ -12,10 +12,16 @@ export class HomePage {
   clique(){
     alert("Hello World");
   }
+  
   public inputValue:string;
-
+  
   newWord(){
     
     alert(this.inputValue)
   }
+  equipe(){
+    alert("Alberto Vidal\nGuilherme Magno\nIgorRegueira\nJamesson Vinicius\nJuliana Dornelas\nNilo Rodrigues\nPedro Calazans\nRosicleite Monteiro");
+  }
 }
+
+  

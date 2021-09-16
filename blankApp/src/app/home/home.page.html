@@ -17,14 +17,32 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>App esta pronto</strong>
-    <p></p>
-    <ion-button (click)="clique()">Botão Hello</ion-button>
-    <div class="dialogo">
+  <div class="cartao"></div>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="primary">Função Hello World</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-button color="primary" (click)="clique()">Botão Hello</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="primary">Função Nova Palavra</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
       <ion-input placeholder="Enter Input" [(ngModel)]="inputValue"></ion-input>
-      <ion-button (click)="newWord()">Nova Palavra</ion-button>
-    </div>
-      
-    </div>
+      <ion-button color="primary" (click)="newWord()">Nova Palavra</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <div class="cartao"></div>
+
+  <ion-button expand="block" color="tertiary" (click)="equipe()">Grupo 04</ion-button>
+
+  
 </ion-content>
